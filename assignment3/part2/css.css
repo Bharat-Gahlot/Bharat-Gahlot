@@ -22,5 +22,8 @@ html {
     therefore,
     18 px = [(1/16) * 18] rem = 1.125 rem
     */
-    font-size: 1.125 rem
+    font-size: 1.125 rem;
+
+    background-image: linear-gradient(to top left, rgba(0,0,0,0.2), rgba(0,0,0,0.2) 30%, rgba(0,0,0,0));
+
   }
