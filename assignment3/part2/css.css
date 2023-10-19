@@ -3,3 +3,24 @@ html {
   }
   
   /* Your CSS below here */
+
+  div {
+
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: red;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-radius: 10px;
+    border: 1px solid darkred;
+    
+    /*
+    since, 
+    16 px = 1 rem
+    therefore,
+    18 px = [(1/16) * 18] rem = 1.125 rem
+    */
+    font-size: 1.125 rem
+  }
