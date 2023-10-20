@@ -56,16 +56,28 @@
     font-family: 'serif font';
  } 
 
- h1, h2 {
-    font-family: 'sans-serif font';
-    letter-spacing: 1px;
- }
-
  html {
     font-size: 10px;
     letter-spacing: 0.5px;
     word-spacing: 0.5px;
  }
+
+ h1, h2 {
+    font-family: 'sans-serif font';
+    letter-spacing: 0.25rem;
+ }
+
+ h1 {
+    font-size: 5rem;
+ }
+
+ h2 {
+    font-size: 3.5rem;
+ }
+
+ li, p {
+    font-size: 2rem;
+ } 
 
  body {
     line-height: 1.5;
@@ -74,3 +86,5 @@
  header {
     text-align: center;
  }
+
+ 
