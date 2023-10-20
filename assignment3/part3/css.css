@@ -87,4 +87,24 @@
     text-align: center;
  }
 
- 
+ a:link{
+    color: rgb(198, 23, 105);
+  }
+  a:visited{
+    color: rgb(240, 9, 229);
+  }
+  a:focus{
+    color: rgb(77, 9, 81);
+    text-decoration: none;
+    outline: none;
+  }
+  a:hover{
+    color: rgb(240, 22, 131);
+    text-decoration: none;
+  }
+  
+  a:active{
+      background-color: rgb(178, 5, 161);
+      color:rgb(142, 69, 143);
+      outline: initial;
+  }
