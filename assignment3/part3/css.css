@@ -43,3 +43,34 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  @font-face {
+    font-family: 'sans-serif font';
+    src: url(sans_serif_font/OpenSans-Bold.ttf);
+
+    font-family: 'serif font';
+    src: url(serif_font/Alice-Regular.ttf);
+  }
+
+ section, aside, footer {
+    font-family: 'serif font';
+ } 
+
+ h1, h2 {
+    font-family: 'sans-serif font';
+    letter-spacing: 1px;
+ }
+
+ html {
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+ }
+
+ body {
+    line-height: 1.5;
+ }
+
+ header {
+    text-align: center;
+ }
