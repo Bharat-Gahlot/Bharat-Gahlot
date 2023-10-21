@@ -110,7 +110,7 @@
   a:active{
       background-color: rgb(178, 5, 161);
       color:rgb(142, 69, 143);
-      outline: initial;
+      outline: none;
   }
 
   h2 + ul, p + ul {
@@ -122,9 +122,34 @@
     }
 
   nav ul {
-    padding-top: 11rem;
-    line-height: 5rem;
-    list-style-type: upper-roman;
-    display:table-cell;    
+    list-style-type: none;
+  }
+
+  nav li a{
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid;
+    font-size: 2.5rem;
+    line-height: 3;
+    display: grid;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  nav li a:focus{
+    background-color: rgb(13, 176, 195);
+    color:rgb(1, 19, 20);
+    outline: none;
+  }
+
+  nav li a:hover{
+    color: rgb(7, 129, 96);
+    text-decoration: none;
+  }
+
+  nav li a:active{
+    background-color: rgb(5, 215, 156);
+    color:rgb(198, 23, 105);
+    outline: none;
   }
   
