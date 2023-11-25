@@ -26,16 +26,11 @@ for (let index = 0; index < imagesArray.length; index++) {
     newImage.addEventListener('click', function() {
         // Set the src attribute value of the displayed-img <img>
         document.querySelector('.displayed-img').setAttribute('src', 'images/' + imagesArray[index]);
-        
+
         // Set the alt attribute value of the displayed-img <img>
         document.querySelector('.displayed-img').setAttribute('alt', 'Image ' + (index + 1));
     });
     thumbBar.appendChild(newImage);
 }
-
-
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
 
 /* Wiring up the Darken/Lighten button */
