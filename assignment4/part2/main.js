@@ -18,8 +18,22 @@ const imagesText = {
 
 /* Looping through images */
 
+for (let index = 0; index < imagesArray.length; index++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', 'images/' + imagesArray[index]);
+    newImage.setAttribute('alt', 'Image ' + (index + 1));
+    // Add a click event listener to each thumbnail image
+    newImage.addEventListener('click', function() {
+        // Set the src attribute value of the displayed-img <img>
+        document.querySelector('.displayed-img').setAttribute('src', 'images/' + imagesArray[index]);
+        
+        // Set the alt attribute value of the displayed-img <img>
+        document.querySelector('.displayed-img').setAttribute('alt', 'Image ' + (index + 1));
+    });
+    thumbBar.appendChild(newImage);
+}
 
-const newImage = document.createElement('img');
+
 newImage.setAttribute('src', xxx);
 newImage.setAttribute('alt', xxx);
 thumbBar.appendChild(newImage);
